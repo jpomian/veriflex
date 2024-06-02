@@ -32,7 +32,6 @@ Install needed dependencies:
 
 ```bash
 npm install
-npm install husky # For some reason needs standalone command to install
 ```
 
 Next, start the Hardhat node:
@@ -74,8 +73,6 @@ Install needed dependencies:
 
 ```bash
 npm install
-npm install husky
-```
 
 Then, start the Next.js application:
 
