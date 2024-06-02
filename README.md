@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src=".docs/veriflex-logo.svg" alt="SVG Logo" width="200"> <!-- Adjust the width value as needed -->
+  <img src="docs/veriflex-logo.svg" alt="SVG Logo" width="200"> <!-- Adjust the width value as needed -->
 </p>
 
 # Your Platform to Preserve Private On-chain Identity
