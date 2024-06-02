@@ -1,0 +1,46 @@
+{
+  "name": "VeriFlex",
+  "description": "VeriFlex, app for issuing and verifying zkSBTs.",
+  "url": {
+    "github": "https://github.com/jpomian"
+  },
+  "style": {
+    "color": {
+      "black": {
+        "bg": "#080000",
+        "text": {
+          "primary": "gray.800",
+          "secondary": "gray.700",
+          "tertiary": "gray.500"
+        }
+      },
+      "white": {
+        "bg": "#F6F7F8",
+        "text": {
+          "primary": "gray.100",
+          "secondary": "gray.200",
+          "tertiary": "gray.400"
+        }
+      },
+      "accent": "#a796c9",
+      "homeTop": "#ab90bf",
+      "homeBottom": "#6c5887",
+      "link": "#4879B7",
+      "brand": {
+        "50": "#d8b5ff",
+        "100": "#E9D5F2",
+        "200": "#DFC2E9",
+        "300": "#D3ADDF",
+        "400": "#C899D4",
+        "500": "#BF86CB",
+        "600": "#B373C1",
+        "700": "#A860B8",
+        "800": "#9D4EAC",
+        "900": "#8F3B9C"
+      }
+    },
+    "size": "md",
+    "radius": "xl",
+    "shadow": "base"
+  }
+}
