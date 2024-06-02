@@ -8,7 +8,9 @@
     "dev:node": "hardhat node",
     "test": "hardhat test",
     "lint": "eslint '**/*.{js,ts}' --ignore-path .gitignore",
-    "deploy": "hardhat run scripts/deploy.ts --network localhost"
+    "deploy": "hardhat run scripts/deploy.ts --network localhost",
+    "prepare": "husky install",
+    "create-hook": "husky add .husky/pre-commit \"npm test\""
   },
   "devDependencies": {
     "@ethersproject/abi": "^5.7.0",

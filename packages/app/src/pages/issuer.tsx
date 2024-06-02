@@ -1,4 +1,4 @@
-import { Button, FormControl, FormLabel, Input, Stack, Text, Spinner } from "@chakra-ui/react";
+import { Button, FormControl, FormLabel, Input, Stack, Text } from "@chakra-ui/react";
 import { ethers } from "ethers";
 import { NextPage } from "next";
 import { useEffect, useState } from "react";
@@ -121,13 +121,9 @@ const CreatePage: NextPage = () => {
                 }
               }}
             >
-              {isLoading ? <Spinner /> : (
-                <>
-                  {!connected && "Connect Wallet"}
-                  {connected && !alreadyMinted && "Mint"}
-                  {connected && alreadyMinted && "Already Minted"}
-                </>
-              )}
+              {!connected && "Connect Wallet"}
+              {connected && !alreadyMinted && "Mint"}
+              {connected && alreadyMinted && "Already Minted"}
             </Button>
           </Stack>
         </Stack>

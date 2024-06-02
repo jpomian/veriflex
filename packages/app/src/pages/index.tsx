@@ -21,7 +21,7 @@ const IssuePage: NextPage = () => {
           <Text fontSize={"2xl"} textAlign={"center"} fontWeight={"bold"} color={configJsonFile.style.color.homeBottom}>
             VeriFlex helps to maintain private On-Chain Identity.
           </Text>
-          <Box mt="25vh">
+          <Box mt="10px">
             <Text fontSize={"md"} textAlign={"center"} color={configJsonFile.style.color.black.text.primary}>
               Press one of the buttons to get started!
             </Text>

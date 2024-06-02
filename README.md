@@ -32,6 +32,7 @@ Install needed dependencies:
 
 ```bash
 npm install
+npm install husky # For some reason needs standalone command to install
 ```
 
 Next, start the Hardhat node:
@@ -73,6 +74,7 @@ Install needed dependencies:
 
 ```bash
 npm install
+npm install husky
 ```
 
 Then, start the Next.js application:
@@ -88,6 +90,16 @@ Open your browser and navigate to `localhost:3000`.
 Connect your wallet using the button at the top of the page.
 
 Now, you're all set to explore the platform and preserve your private on-chain identity!
+
+### Issuer:
+
+Here you can mint your own SBT. This SBT is predefined to prove you are over 18.
+
+### Holder:
+
+After connecting your wallet, you can see there is one SBT by default (it's just a placeholder). After minting your SBT with Issuer, you can see it in this page. To prove and verify it, just click the verify button.
+
+❗ *Note*: If you are experiencing issues when minting or performing any other operation regarding smart contracts - switch network to other and then switch back to localhost. It will restart local state and will sync with hardhat blockchain instance.
 
 ### TODO:
 Deploy contracts to Sepolia testnet and migrate app into Vercel for easy sharing.
