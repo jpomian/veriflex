@@ -9,7 +9,6 @@ lerna-debug.log*
 # Locks (risky)
 
 yarn.lock
-package.json
 .editorconfig
 .vscode
 .husky

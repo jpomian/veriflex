@@ -45,7 +45,7 @@ This will open a port to listen for incoming transactions. **Do not close this t
 In a new terminal window, deploy the smart contracts:
 
 ```bash
-npx hardhat deploy
+npm run deploy
 ```
 
 Our platform is based on the Ethereum blockchain. To interact with it, you'll need to install [MetaMask](https://metamask.io/) and add the localhost test network to it.
