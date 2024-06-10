@@ -73,6 +73,7 @@ Install needed dependencies:
 
 ```bash
 npm install
+```
 
 Then, start the Next.js application:
 

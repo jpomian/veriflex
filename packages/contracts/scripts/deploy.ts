@@ -10,15 +10,19 @@ import { ChainId } from "../types/network";
 async function main() {
   const signer = await ethers.provider.getSigner();
   const signerAddress = await signer.getAddress();
+  
   console.log("signerAddress", signerAddress);
   const chainId = String(network.config.chainId) as ChainId;
   console.log("chainId", chainId);
+
   const PrivateSoulMinter = new PrivateSoulMinter__factory(signer);
   const privateSoulMinter = await PrivateSoulMinter.deploy();
   await privateSoulMinter.deployed();
+
   const Verifier = new Verifier__factory(signer);
   const verifier = await Verifier.deploy();
   await verifier.deployed();
+
   const deployments = {
     privateSoulMinter: privateSoulMinter.address,
     verifier: verifier.address,

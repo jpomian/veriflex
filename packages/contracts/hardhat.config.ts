@@ -3,7 +3,7 @@ import "@nomicfoundation/hardhat-toolbox";
 import * as dotenv from "dotenv";
 import { HardhatUserConfig } from "hardhat/config";
 
-import { HARDHAT_CHAINID, TIMEOUT, PRIVATE_KEY } from "./config";
+import { HARDHAT_CHAINID, TIMEOUT, PRIVATE_KEY, SEPOLIA_URL_API } from "./config";
 import { getMnemonic } from "./lib/dev/mnemonic";
 import { getNetworksUserConfigs } from "./lib/dev/network";
 
@@ -34,7 +34,7 @@ const config: HardhatUserConfig = {
       },
     },
     sepolia: {
-      url: "https://eth-sepolia.g.alchemy.com/v2/demo",
+      url: SEPOLIA_URL_API,
       chainId: 11155111,
       accounts: [PRIVATE_KEY],
     },
